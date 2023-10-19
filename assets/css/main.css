@@ -36,6 +36,12 @@ h1 {
   font-size: 2.5rem;
 }
 
+.skills {
+  text-align: center;
+  padding-top: 4rem;
+  margin: 0;
+}
+
 figure {
   margin: 1em 40px;
 }
@@ -4795,7 +4801,7 @@ h3,
 h4,
 strong {
   margin-top: 1em;
-  padding-top: 1em;
+  /*padding-top: 1em;*/
   line-height: 1.25;
   color: #333;
 }
