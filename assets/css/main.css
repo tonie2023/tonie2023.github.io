@@ -4999,7 +4999,22 @@ a img {
 .tech {
   margin: 10px;
 }
-
+.unity {
+  width: 75px;
+  height: 75.2px;
+}
+.vcv {
+  width: 75px;
+  height: 75.2px;
+}
+.reaper {
+  width: 75px;
+  height: 75.2px;
+}
+.davinci {
+  width: 75px;
+  height: 75.2px;
+}
 .user {
   text-align: center;
   font-size: 60px;
