@@ -117,7 +117,7 @@ audio:not([controls]) {
 
 img {
   border-style: none;
-  width: 300px;
+  width: 125px;
 }
 
 svg:not(:root) {
@@ -5003,6 +5003,10 @@ a img {
   width: 75px;
   height: 75.2px;
 }
+.unity_project {
+  width: 125px;
+  height: 125px;
+}
 .vcv {
   width: 75px;
   height: 75.2px;
@@ -5056,7 +5060,7 @@ a img {
 }
 
 .user-projects {
-  margin: 20px auto;
+  margin: 50px auto;
 }
 
 .user-projects img {
@@ -5097,6 +5101,7 @@ a img {
 
   .images-right img {
     float: right;
+    width: 50%;
   }
 
   .images-left {
@@ -5106,6 +5111,7 @@ a img {
 
   .images-left img {
     float: left;
+    width: 80%;
   }
 }
 
