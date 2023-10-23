@@ -5103,10 +5103,18 @@ a img {
     float: right;
     width: 50%;
   }
-
+  .me {
+    width: auto;
+    height: 200px;
+  }
   .images-left {
     float: left;
     width: 48%;
+  }
+
+  #explication {
+    resize: none;
+    margin-top: 25px;
   }
 
   .images-left img {
