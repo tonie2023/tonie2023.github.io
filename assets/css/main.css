@@ -5019,6 +5019,14 @@ a img {
   width: 75px;
   height: 75.2px;
 }
+#image_maquette {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#image_maquette:hover {
+  opacity: 0.7;
+}
 .user {
   text-align: center;
   font-size: 60px;
