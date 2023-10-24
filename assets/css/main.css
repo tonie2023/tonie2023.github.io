@@ -5022,11 +5022,12 @@ a img {
 #image_maquette {
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.3s;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: auto;
+  height: 400px;
 }
-#image_maquette:hover {
-  opacity: 0.7;
-}
+
 .user {
   text-align: center;
   font-size: 60px;
