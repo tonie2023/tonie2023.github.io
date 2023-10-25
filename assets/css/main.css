@@ -5019,7 +5019,7 @@ a img {
   width: 75px;
   height: 75.2px;
 }
-#image_maquette {
+.image_maquette {
   border-radius: 5px;
   cursor: pointer;
   padding-left: 30px;

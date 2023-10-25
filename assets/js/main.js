@@ -72,3 +72,27 @@ document.addEventListener(
   },
   !1
 );
+
+let media = document.querySelector("#ordinateur");
+
+let media_02 = document.querySelector("#tablette");
+
+let media_03 = document.querySelector("#mobile");
+
+let btn = document.querySelector("#ordinateur");
+
+let btn_02 = document.querySelector("#tablette");
+
+let btn_03 = document.querySelector("#mobile");
+
+btn.addEventListener("click", function () {
+  media.requestFullscreen();
+});
+
+btn_02.addEventListener("click", function () {
+  media_02.requestFullscreen();
+});
+
+btn_03.addEventListener("click", function () {
+  media_03.requestFullscreen();
+});
