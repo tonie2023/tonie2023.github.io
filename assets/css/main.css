@@ -4862,7 +4862,7 @@ a img {
   color: #fff;
   position: absolute;
   font-family: "Rubik", sans-serif;
-  width: 80%;
+  width: 100%;
   top: 50%;
   left: 50%;
   margin: 0 auto;
@@ -5027,7 +5027,21 @@ a img {
   width: auto;
   height: 400px;
 }
-
+.vids{
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.video{
+  padding-bottom: 10px;
+}
+.narratif{
+  margin-left: 30px;
+  margin-right: 30px;
+  border: none;
+  font-family: Rubik;
+}
 .user {
   text-align: center;
   font-size: 60px;
