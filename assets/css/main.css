@@ -5025,18 +5025,18 @@ a img {
   padding-left: 30px;
   padding-right: 30px;
   width: auto;
-  height: 400px;
+  height: 300px;
 }
-.vids{
+.vids {
   padding-top: 15px;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
 }
-.video{
+.video {
   padding-bottom: 10px;
 }
-.narratif{
+.narratif {
   margin-left: 30px;
   margin-right: 30px;
   padding-top: 5px;
@@ -5050,6 +5050,11 @@ a img {
   color: black;
   line-height: 1.5;
 }
+.processus_creation {
+  text-align: center;
+  padding-top: 15px;
+}
+
 .user {
   text-align: center;
   font-size: 60px;
