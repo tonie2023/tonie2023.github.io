@@ -5055,6 +5055,30 @@ a img {
   padding-top: 15px;
 }
 
+.titre_tablette {
+  padding-top: 20px;
+}
+.caroussel_maquette_tablette {
+  padding-bottom: 20px;
+}
+.swiper {
+  position: relative;
+  top: 15px;
+  width: 50vh;
+  height: 50vh;
+}
+
+.swiper-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .user {
   text-align: center;
   font-size: 60px;

@@ -96,3 +96,19 @@ btn_02.addEventListener("click", function () {
 btn_03.addEventListener("click", function () {
   media_03.requestFullscreen();
 });
+
+const swiper = new Swiper(".swiper", {
+  direction: "horizontal",
+  grabCursor: true,
+  effect: "cube",
+  slidesPerView: 1,
+  spaceBetween: 25,
+  loop: true,
+  cubeEffect: {
+    transition: true,
+    shadow: true,
+    slideShadows: true,
+    shadowOffset: 20,
+    shadowScale: 0.94,
+  },
+});
