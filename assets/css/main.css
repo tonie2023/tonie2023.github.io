@@ -5019,6 +5019,10 @@ a img {
   width: 75px;
   height: 75.2px;
 }
+.davinci_img{
+  width:368.63px !important;
+  height: 207.34px !important;
+}
 .image_maquette {
   border-radius: 5px;
   cursor: pointer;
