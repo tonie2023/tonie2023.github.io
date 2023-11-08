@@ -16,6 +16,14 @@ body {
   color: #555;
   font-family: "Nunito Sans", sans-serif;
 }
+.projet2 {
+  background: #1488cc;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2b32b2, #1488cc);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2b32b2, #1488cc);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 article,
 aside,
@@ -4851,6 +4859,19 @@ a img {
   background-attachment: fixed;
 }
 
+@media screen and (min-width: 559px) {
+  #particles-js {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  #particles-js {
+    width: auto;
+    height: 100vh;
+  }
+}
 #particles-js .particles-js-canvas-el {
   width: 100% !important;
   height: 100vh !important;
@@ -4876,14 +4897,86 @@ a img {
   line-height: 1;
   color: #fff;
 }
-
-@media only screen and (min-width: 550px) {
+.header #title {
+  font-size: 35px;
+  display: block;
+  line-height: 1;
+  color: #fff;
+}
+@media screen and (min-width: 550px) {
+  .titreH {
+    margin: 0;
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 549px) {
+  .titreH {
+    margin: 0;
+    font-size: 37px;
+    padding-top: 21rem;
+  }
+}
+@media screen and (min-width: 550px) {
+  .header #title {
+    margin: 0;
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 549px) {
+  .header #title {
+    margin: 0;
+    font-size: 37px;
+    padding-top: 11rem;
+  }
+}
+@media screen and (min-width: 550px) {
+  .header .titles {
+    margin: 0;
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 549px) {
+  .header .titles {
+    margin-top: -227px;
+    font-size: 37px;
+  }
+}
+@media screen and (min-width: 550px) {
+  .header .titre {
+    margin: 0;
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 549px) {
+  .header .titre {
+    margin-top: -160px;
+    font-size: 37px;
+  }
+}
+@media screen and (min-width: 550px) {
+  .header .titres {
+    margin: 0;
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 549px) {
+  .header .titres {
+    margin-top: -300px;
+    font-size: 37px;
+  }
+}
+@media screen and (min-width: 550px) {
   .header .site-title {
     margin: 0;
     font-size: 100px;
   }
 }
-
+@media screen and (max-width: 549px) {
+  .header .site-title {
+    margin: 0;
+    font-size: 37px;
+  }
+}
 .header .site-description {
   font-size: 20px;
   display: block;
@@ -4996,6 +5089,11 @@ a img {
   }
 }
 
+@media screen and (max-width: 549px) {
+  .text {
+    padding-top: 20px;
+  }
+}
 .tech {
   margin: 10px;
 }
@@ -5022,6 +5120,12 @@ a img {
 .davinci_img {
   width: 368.63px !important;
   height: 207.34px !important;
+}
+@media screen and (max-width: 549px) {
+  .images-right .davinci_img {
+    padding-left: 40px;
+    width: 50%;
+  }
 }
 .image_maquette {
   border-radius: 5px;
@@ -5063,6 +5167,15 @@ a img {
 }
 .caroussel_maquette_tablette {
   padding-bottom: 20px;
+}
+.source {
+  padding-top: 17px;
+}
+@media screen and (max-width: 549px) {
+  .source {
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
 }
 .swiper {
   position: relative;
@@ -5183,6 +5296,30 @@ a img {
   .images-left img {
     float: left;
     width: 80%;
+  }
+}
+@media screen and (max-width: 549px) {
+  .images-left img {
+    padding-left: 64px;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 549px) {
+  .images-right img {
+    padding-left: 115px;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 550px) {
+  .image_maquette {
+    width: auto;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 549px) {
+  .image_maquette {
+    width: auto;
+    height: 175px;
   }
 }
 
